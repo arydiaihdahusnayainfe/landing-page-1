@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Cabinet Grotesk Regular", sans-serif;
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .cabinet-grotesk {
+    font-family: "Cabinet Grotesk Regular", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-thin {
+    font-family: "Cabinet Grotesk Thin", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-extralight {
+    font-family: "Cabinet Grotesk Extralight", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-light {
+    font-family: "Cabinet Grotesk Light", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-medium {
+    font-family: "Cabinet Grotesk Medium", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-bold {
+    font-family: "Cabinet Grotesk Bold", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-extrabold {
+    font-family: "Cabinet Grotesk Extrabold", sans-serif;
+    font-style: normal;
+  }
+  .cabinet-grotesk-black {
+    font-family: "Cabinet Grotesk Black", sans-serif;
+    font-style: normal;
+  }
+}
