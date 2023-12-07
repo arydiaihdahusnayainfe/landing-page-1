@@ -1,3 +1,4 @@
+import Location from "./components/location/Location";
 import NavBar from "./components/navbar/NavBar";
 import Profile from "./components/profile/Profile";
 
@@ -10,6 +11,7 @@ function App() {
         </div>
         <div className="overflow-y-scroll h-[1000vh]" >
             <Profile />
+            <Location />
         </div>
       </div>
     </>
