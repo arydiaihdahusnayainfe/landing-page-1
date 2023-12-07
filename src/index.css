@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 @layer base {
   html {
     font-family: "Cabinet Grotesk Regular", sans-serif;
     font-style: normal;
     background-color: #040404;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
   }
 }
 
@@ -43,4 +55,23 @@
     font-family: "Cabinet Grotesk Black", sans-serif;
     font-style: normal;
   }
+}
+
+.b-gradiant {
+  background: radial-gradient(
+    100% 100% at 50% 100%,
+    #ff823c 0%,
+    #e9536b 24.48%,
+    #6f4ece 59.38%,
+    #2f22c1 90.1%
+  );
+}
+.b-gradiant:hover {
+  background: linear-gradient(
+    180deg,
+    #ff823c 0%,
+    #e9536b 24.48%,
+    #6f4ece 59.38%,
+    #2f22c1 90.1%
+  );
 }
