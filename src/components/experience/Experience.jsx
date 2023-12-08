@@ -4,7 +4,7 @@ function Experience() {
   return (
     <>
       {/* Background section */}
-      <section className="bg-section mt-2 py-8 px-6 rounded-3xl text-white ">
+      <section id="experience" className="bg-section mt-2 py-8 px-6 rounded-3xl text-white ">
         {/* Experience icon */}
         <div>
           <img src={experienceIcon} alt="" />

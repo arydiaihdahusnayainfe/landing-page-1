@@ -58,7 +58,21 @@ const NavBar = () => {
             <a href="#social-media">
               <li className="group py-2 px-5 hover:bg-slate-700 rounded-xl">
                 <p className="group-hover:translate-x-2 transition-all cabinet-grotesk-medium ">
-                social media
+                Social Media
+                </p>
+              </li>
+            </a>
+            <a href="#experience">
+              <li className="group py-2 px-5 hover:bg-slate-700 rounded-xl">
+                <p className="group-hover:translate-x-2 transition-all cabinet-grotesk-medium ">
+                Experience
+                </p>
+              </li>
+            </a>
+            <a href="#skill">
+              <li className="group py-2 px-5 hover:bg-slate-700 rounded-xl">
+                <p className="group-hover:translate-x-2 transition-all cabinet-grotesk-medium ">
+                Skill
                 </p>
               </li>
             </a>

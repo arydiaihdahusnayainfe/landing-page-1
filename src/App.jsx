@@ -4,6 +4,7 @@ import Experience from "./components/experience/Experience";
 import Location from "./components/location/Location";
 import NavBar from "./components/navbar/NavBar";
 import Profile from "./components/profile/Profile";
+import Skill from "./components/skill/Skill";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Contact />
             <SocialMedia />
             <Experience />
+            <Skill />
         </div>
       </div>
     </>
