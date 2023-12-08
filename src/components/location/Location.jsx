@@ -3,7 +3,7 @@ import { MapPin } from "lucide-react";
 function Location() {
   return (
     <>
-      <div
+      <section
         id="location"
         className="bg-section mt-2 py-8 px-6 rounded-3xl text-white">
         {/* icon */}
@@ -16,7 +16,7 @@ function Location() {
             Based in Yogyakarta <span className="text-[#A45CEC]">GMT+7</span>
           </p>
         </div>
-      </div>
+      </section>
     </>
   );
 }

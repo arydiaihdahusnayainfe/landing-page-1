@@ -3,7 +3,7 @@ import imgProfile from "../../assets/svg/profileQu.svg";
 function Profile() {
   return (
     <>
-      <div id="profile" className="bg-section mt-32 py-8 px-6 rounded-3xl">
+      <header id="profile" className="bg-section mt-32 py-8 px-6 rounded-3xl">
         {/* img */}
         <div>
           <img width={80} src={imgProfile} alt="PutuQ" />
@@ -16,7 +16,7 @@ function Profile() {
             <span className="text-[#8A8B90]"> currently working at Qodr.</span>
           </h1>
         </div>
-      </div>
+      </header>
     </>
   );
 }

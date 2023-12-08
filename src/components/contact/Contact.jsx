@@ -3,7 +3,7 @@ import { PhoneCall } from "lucide-react";
 function Contact() {
   return (
     <>
-      <div
+      <section
         id="contact"
         className="bg-section mt-2 py-8 px-6 rounded-3xl text-white">
         {/* icon */}
@@ -24,7 +24,7 @@ function Contact() {
             let’s talk
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 }
