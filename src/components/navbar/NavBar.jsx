@@ -33,7 +33,7 @@ const NavBar = () => {
 
         {/* Menu items */}
         {menuOpen && (
-          <ul className="absolute top-14 right-7 bg-section text-white rounded-xl">
+          <ul className="absolute top-14 right-7 bg-[#1f2022] text-white rounded-xl">
             <a href="#profile">
               <li className="group py-2 px-5 hover:bg-slate-700 rounded-xl">
                 <p className="group-hover:translate-x-2 transition-all cabinet-grotesk-medium ">
