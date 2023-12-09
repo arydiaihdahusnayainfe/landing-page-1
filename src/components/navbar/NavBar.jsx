@@ -76,6 +76,13 @@ const NavBar = () => {
                 </p>
               </li>
             </a>
+            <a href="#company">
+              <li className="group py-2 px-5 hover:bg-slate-700 rounded-xl">
+                <p className="group-hover:translate-x-2 transition-all cabinet-grotesk-medium ">
+                Company
+                </p>
+              </li>
+            </a>
           </ul>
         )}
       </div>

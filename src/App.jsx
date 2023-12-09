@@ -1,4 +1,5 @@
 import SocialMedia from "./components/Social_Media/SocialMedia";
+import Company from "./components/company/Company";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import Location from "./components/location/Location";
@@ -8,7 +9,7 @@ import Skill from "./components/skill/Skill";
 
 function App() {
   return (
-    <>
+    <div className="max-w-[360px] mx-auto">
       <div className="w-[90%] mx-auto">
         <div>
             <NavBar />
@@ -20,9 +21,10 @@ function App() {
             <SocialMedia />
             <Experience />
             <Skill />
+            <Company /> 
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
