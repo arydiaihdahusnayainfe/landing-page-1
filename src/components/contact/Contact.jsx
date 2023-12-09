@@ -18,11 +18,16 @@ function Contact() {
         </div>
         {/* button contact */}
         <div>
-          <button
-            className="text-[24px] p-2 cabinet-grotesk-bold b-gradiant b-gradiant border-b-2 border-l-[1px] border-r-[1px] shadow-[0_3px_12px_0_#F3568F] w-full rounded-[64px]"
-            type="button">
-            let’s talk
-          </button>
+          <a
+            href="https://t.me/learn_brain"
+            target="_blank"
+            rel="noreferrer noopener">
+            <button
+              className="text-[24px] p-2 cabinet-grotesk-bold b-gradiant b-gradiant border-b-2 border-l-[1px] border-r-[1px] shadow-[0_3px_12px_0_#F3568F] w-full rounded-[64px]"
+              type="button">
+              let’s talk
+            </button>
+          </a>
         </div>
       </section>
     </>
