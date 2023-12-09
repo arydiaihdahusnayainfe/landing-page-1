@@ -5,6 +5,7 @@ import Experience from "./components/experience/Experience";
 import Location from "./components/location/Location";
 import NavBar from "./components/navbar/NavBar";
 import Profile from "./components/profile/Profile";
+import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Experience />
             <Skill />
             <Company /> 
+            <Project />
         </div>
       </div>
     </div>

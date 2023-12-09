@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="shadow-[0_5px_50px_0_#262626] bg-section fixed top-4 right-[50%] left-[50%] transform -translate-x-[50%] flex justify-between items-center px-4 py-3 mt-4 w-[90%] rounded-[64px]">
+    <nav className="shadow-[0_5px_50px_0_#262626] bg-section fixed top-4 right-[50%] left-[50%] transform -translate-x-[50%] flex justify-between items-center px-4 py-3 mt-4 w-[90%] rounded-[64px] z-10">
       {/* logo */}
       <div>
         <h1 className="text-3xl text-white cabinet-grotesk-extrabold ">
