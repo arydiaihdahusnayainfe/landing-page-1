@@ -1,6 +1,9 @@
 # 🎨 My Personal Portfolio
 ### Hello it's my portfolio!
 
+## 📝 Noted
+- This only max width 360px
+
 ## 🚀 Live Deploy
 
 ```bash
