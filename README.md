@@ -11,12 +11,12 @@ open under here
 
 ## 📦 Install
 ```bash
-bun install
+$ bun install
 ```
 
 ## 🚀 Run
 ```bash
-bun run dev
+$ bun run dev
 ```
 
 # 💻 Tech Stack:
