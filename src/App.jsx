@@ -6,6 +6,7 @@ import Location from "./components/location/Location";
 import NavBar from "./components/navbar/NavBar";
 import Profile from "./components/profile/Profile";
 import Project from "./components/project/Project";
+import SeeMore from "./components/see_more/SeeMore";
 import Skill from "./components/skill/Skill";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Skill />
             <Company /> 
             <Project />
+            <SeeMore />
         </div>
       </div>
     </div>
