@@ -2,6 +2,7 @@ import SocialMedia from "./components/Social_Media/SocialMedia";
 import Company from "./components/company/Company";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
 import Location from "./components/location/Location";
 import NavBar from "./components/navbar/NavBar";
 import Profile from "./components/profile/Profile";
@@ -27,6 +28,7 @@ function App() {
             <Project />
             <SeeMore />
             <Contact />
+            <Footer />
         </div>
       </div>
     </div>
