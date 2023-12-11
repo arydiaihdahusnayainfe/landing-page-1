@@ -3,7 +3,7 @@ import ArrowBtn from "../../assets/svg/ArrowButton.svg";
 function Project() {
   return (
     <>
-      <section className="mt-2 text-white">
+      <section id="project" className="mt-2 text-white">
         <div className="bg-section mt-2 rounded-3xl p-2">
           <div className="py-5 px-3">
             <div>
