@@ -26,6 +26,7 @@ function App() {
             <Company /> 
             <Project />
             <SeeMore />
+            <Contact />
         </div>
       </div>
     </div>
