@@ -13,14 +13,14 @@ function SocialMedia() {
         id="social-media"
         className="mt-2 text-white flex gap-2 justify-between items-center">
         {/* Left column */}
-        <div className="flex flex-col gap-2 w-1/2">
+        <div className="flex flex-col gap-2 w-1/2 items-stretch">
           {/* LinkedIn link */}
           <a
             href="https://www.linkedin.com/in/arydia-ihda-husnayain-a143942a4/"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-7 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={linkedin} alt="" />
+            <div className="bg-section py-4 px-7 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={linkedin} alt="" />
               linkedin
             </div>
           </a>
@@ -29,8 +29,8 @@ function SocialMedia() {
             href="https://github.com/arydiaihdahusnayainfe/"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-7 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={github} alt="" />
+            <div className="bg-section py-4 px-7 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={github} alt="" />
               github
             </div>
           </a>
@@ -39,8 +39,8 @@ function SocialMedia() {
             href="https://t.me/learn_brain"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-7 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={telegram} alt="" />
+            <div className="bg-section py-4 px-7 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={telegram} alt="" />
               telegram
             </div>
           </a>
@@ -52,8 +52,8 @@ function SocialMedia() {
             href="https://www.instagram.com/arydiahusnayain_/"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-6 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={instagram} alt="" />
+            <div className="bg-section py-4 px-6 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={instagram} alt="" />
               instagram
             </div>
           </a>
@@ -62,8 +62,8 @@ function SocialMedia() {
             href="https://twitter.com/arydiaihdafe"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-7 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={twitter} alt="" />
+            <div className="bg-section py-4 px-7 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={twitter} alt="" />
               twitter
             </div>
           </a>
@@ -72,8 +72,8 @@ function SocialMedia() {
             href="https://www.tiktok.com/id-ID/"
             target="_blank"
             rel="noreferrer noopener">
-            <div className="bg-section py-4 px-7 rounded-[52px] w-full flex gap-1 items-center cabinet-grotesk-bold text-xl hover:bg-slate-700 transition-all">
-              <img src={tiktok} alt="" />
+            <div className="bg-section py-4 px-7 md:py-7 rounded-[52px] w-full flex gap-1 md:gap-3 items-center cabinet-grotesk-bold text-xl md:text-4xl hover:bg-slate-700 transition-all">
+              <img className="md:w-[35px]" src={tiktok} alt="" />
               tiktok
             </div>
           </a>

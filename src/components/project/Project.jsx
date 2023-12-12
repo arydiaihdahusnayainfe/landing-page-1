@@ -7,13 +7,13 @@ function Project() {
         <div className="bg-section mt-2 rounded-3xl p-2">
           <div className="py-5 px-3">
             <div>
-              <h2 className="text-[32px] cabinet-grotesk-bold">ILM</h2>
-              <p className="text-[16px] cabinet-grotesk-medium text-[#8A8B90]">
+              <h2 className="text-[32px] md:text-[50px] cabinet-grotesk-bold">ILM</h2>
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium text-[#8A8B90]">
                 Educational quiz game
               </p>
             </div>
             <div className="mt-4">
-              <p className="text-[16px] cabinet-grotesk-medium">
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium">
                 Learn Islamic knowledge from answering quizez and get coin!
               </p>
             </div>
@@ -28,7 +28,7 @@ function Project() {
             </div>
             <a href="#">
               <div className="absolute right-5 bottom-5 bg-white p-4 rounded-full hover:bg-slate-500 transition-all">
-                <img src={ArrowBtn} alt="" />
+                <img className="md:w-[35px]" src={ArrowBtn} alt="" />
               </div>
             </a>
           </div>
@@ -36,13 +36,13 @@ function Project() {
         <div className="bg-section mt-2 rounded-3xl p-2">
           <div className="py-5 px-3">
             <div>
-              <h2 className="text-[32px] cabinet-grotesk-bold">ILM</h2>
-              <p className="text-[16px] cabinet-grotesk-medium text-[#8A8B90]">
+              <h2 className="text-[32px] md:text-[50px] cabinet-grotesk-bold">ILM</h2>
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium text-[#8A8B90]">
                 Educational quiz game
               </p>
             </div>
             <div className="mt-4">
-              <p className="text-[16px] cabinet-grotesk-medium">
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium">
                 Learn Islamic knowledge from answering quizez and get coin!
               </p>
             </div>
@@ -57,7 +57,7 @@ function Project() {
             </div>
             <a href="#">
               <div className="absolute right-5 bottom-5 bg-white p-4 rounded-full hover:bg-slate-500 transition-all">
-                <img src={ArrowBtn} alt="" />
+                <img className="md:w-[35px]" src={ArrowBtn} alt="" />
               </div>
             </a>
           </div>
@@ -65,13 +65,13 @@ function Project() {
         <div className="bg-section mt-2 rounded-3xl p-2">
           <div className="py-5 px-3">
             <div>
-              <h2 className="text-[32px] cabinet-grotesk-bold">ILM</h2>
-              <p className="text-[16px] cabinet-grotesk-medium text-[#8A8B90]">
+              <h2 className="text-[32px] md:text-[50px] cabinet-grotesk-bold">ILM</h2>
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium text-[#8A8B90]">
                 Educational quiz game
               </p>
             </div>
             <div className="mt-4">
-              <p className="text-[16px] cabinet-grotesk-medium">
+              <p className="text-[16px] md:text-[25px] cabinet-grotesk-medium">
                 Learn Islamic knowledge from answering quizez and get coin!
               </p>
             </div>
@@ -86,7 +86,7 @@ function Project() {
             </div>
             <a href="#">
               <div className="absolute right-5 bottom-5 bg-white p-4 rounded-full hover:bg-slate-500 transition-all">
-                <img src={ArrowBtn} alt="" />
+                <img className="md:w-[35px]" src={ArrowBtn} alt="" />
               </div>
             </a>
           </div>

@@ -12,7 +12,7 @@ function Contact() {
         </div>
         {/* text */}
         <div className="text-center my-8">
-          <p className="text-[32px] cabinet-grotesk-bold leading-10">
+          <p className="text-[32px] mobile-l:text-[40px] cabinet-grotesk-bold leading-10">
             Want to do a project together?
           </p>
         </div>
@@ -23,7 +23,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer noopener">
             <button
-              className="text-[24px] p-2 cabinet-grotesk-bold b-gradiant b-gradiant border-b-2 border-l-[1px] border-r-[1px] shadow-[0_3px_12px_0_#F3568F] w-full rounded-[64px]"
+              className="text-[24px] mobile-l:text-[32px] p-2 cabinet-grotesk-bold b-gradiant b-gradiant border-b-2 border-l-[1px] border-r-[1px] md:border-b-[3px] md:border-l-[3px] md:border-r-[3px] shadow-[0_3px_12px_0_#F3568F] w-full rounded-[64px]"
               type="button">
               let’s talk
             </button>

@@ -12,12 +12,12 @@ import Skill from "./components/skill/Skill";
 
 function App() {
   return (
-    <div className="max-w-[360px] mx-auto">
+    <div>
       <div className="w-[90%] mx-auto">
         <div>
             <NavBar />
         </div>
-        <div className="overflow-y-scroll h-[1000vh]">
+        <div className="overflow-y-scroll">
             <Profile />
             <Location />
             <Contact />
