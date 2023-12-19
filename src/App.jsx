@@ -10,25 +10,68 @@ import Project from "./components/project/Project";
 import SeeMore from "./components/see_more/SeeMore";
 import Skill from "./components/skill/Skill";
 
+
 function App() {
   return (
     <div>
-      <div className="w-[90%] mx-auto">
+      {/* Container */}
+      <div className="w-[90%] lg:w-[85%] mx-auto">
+        {/* Navigation */}
         <div>
-            <NavBar />
+          <NavBar />
         </div>
+        {/* Main content */}
         <div className="overflow-y-scroll">
-            <Profile />
-            <Location />
+          {/* Layout */}
+          <div className="lg:grid lg:grid-cols-5 lg:grid-rows-1 gap-2 lg:h-full lg:mt-32">
+            {/* Hidden profile section on large screens */}
+            <div className="lg:hidden">
+              <Profile />
+            </div>
+            {/* Hidden location section on large screens */}
+            <div className="lg:hidden">
+              <Location />
+            </div>
+            {/* Main profile section */}
+            <div
+              id="header"
+              className="hidden lg:block lg:col-span-3 lg:h-[95%]">
+              <Profile />
+            </div>
+            {/* Main location section */}
+            <div className="hidden lg:block lg:col-span-2 lg:h-[95%]">
+              <Location />
+            </div>
+          </div>
+          {/* Hidden contact section on large screens */}
+          <div className="lg:hidden">
             <Contact />
-            <SocialMedia />
-            <Experience />
-            <Skill />
-            <Company /> 
-            <Project />
-            <SeeMore />
-            <Contact />
-            <Footer />
+          </div>
+          {/* Social media */}
+          <SocialMedia />
+          {/* Layout */}
+          <div className="lg:grid lg:grid-cols-5 lg:grid-rows-1 gap-2 lg:h-full my-auto">
+            {/* Contact section */}
+            <div className="hidden lg:block lg:col-span-2 lg:h-[95%]">
+              <Contact />
+            </div>
+            {/* Experience section */}
+            <div className="h-full lg:col-span-3 lg:h-[95%]">
+              <Experience />
+            </div>
+          </div>
+          {/* Skill section */}
+          <Skill />
+          {/* Company section */}
+          <Company />
+          {/* Project section */}
+          <Project />
+          {/* See more */}
+          <SeeMore />
+          {/* Contact */}
+          <Contact />
+          {/* Footer */}
+          <Footer />
         </div>
       </div>
     </div>
