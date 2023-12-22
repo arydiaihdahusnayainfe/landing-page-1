@@ -1,6 +1,5 @@
 import ArrowBtn from "../../assets/svg/ArrowButton.svg";
 
-
 const CardProject = ({ title, subtitle, description, image, link }) => {
   return (
     <section id="project" className="mt-2 lg:mt-5 text-white">
