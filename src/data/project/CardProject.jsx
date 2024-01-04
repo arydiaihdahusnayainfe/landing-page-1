@@ -29,7 +29,7 @@ const CardProject = ({ title, subtitle, description, image, link }) => {
             <img
               className="bg-cover bg-top bg-no-repeat w-full h-[305px] lg:h-[405px] object-cover"
               src={image}
-              alt=""
+              alt={description}
             />
           </div>
           {/* Arrow button */}
