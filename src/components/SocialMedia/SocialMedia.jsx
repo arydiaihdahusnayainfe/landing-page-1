@@ -46,7 +46,7 @@ function SocialMedia() {
         {/* Right column */}
         {/* Instagram link */}
         <a
-          href="https://www.instagram.com/arydiahusnayain_/"
+          href="https://www.instagram.com/arydiaihdahusnayainfe/"
           target="_blank"
           rel="noreferrer noopener">
           <div className="bg-section py-4 px-6 md:py-7 lg:py-3 lg:px-2 rounded-[52px] flex gap-1 md:gap-3 items-center lg:justify-center cabinet-grotesk-bold text-xl md:text-4xl lg:text-xl hover:bg-slate-700 transition-all">
